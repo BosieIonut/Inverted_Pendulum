@@ -23,7 +23,7 @@ The solution is to use a complementary filter that uses accelerometer data at lo
 <br>
 <center><img src="https://i.imgur.com/2m3d1Qp.png" width="70%"><br></center>
 
-<h2>Control and Calculation</h2>
+<h2>Closed loop control</h2>
 
 The motor command will be given to the H-bridge through 2 pulse width modulation pins.<br>
 The motor's VCC is 12V, so the range 0-255 (given on the pwm pin) will be mapped to 0-12V.
